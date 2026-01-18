@@ -93,8 +93,8 @@ const defaultFace: Face = {
 }
 
 const defualtConfig: Config = {
-    units: 'in',
-    page: 'letter',
+    units: 'mm',
+    page: 'a4',
     style: {
         title: 'Sample',
         style: 'default',
@@ -115,9 +115,9 @@ const defualtConfig: Config = {
         right: { ...defaultFace, cloneOpposite: true },
     },
     size: {
-        width: 2.25,
-        height: 3.5,
-        depth: 1.0
+        width: 68,
+        height: 94,
+        depth: 35
     },
     bleed: 0.12,
     safeArea: 0.12,
